@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--主题设置的开始-->
+
+    <style name="myAppTheme" parent="Theme.AppCompat.Light">
+        <!--隐藏原来的ActionBar，为了在本project中使用ToolBar-->
+        <item name="windowActionBar">true</item>
+        <!--隐藏ActionBar的标题-->
+        <item name="windowNoTitle">true</item>
+        <!-- 设置activity切换动画 -->
+        <!-- <item name="android:windowAnimationStyle">@style/common_activityAnimation</item>-->
+        <item name="dividerVertical">@android:color/transparent</item>
+        <item name="dividerHorizontal">@android:color/transparent</item>
+        <item name="actionBarDivider">@android:color/transparent</item>
+        <item name="editTextStyle">@android:style/Widget.EditText</item>
+        <!--对于button设置字帖区分大小写-->
+        <item name="android:textAllCaps">false</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!--主题的风格End-->
+
+</resources>
